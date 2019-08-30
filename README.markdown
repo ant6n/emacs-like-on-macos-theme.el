@@ -1,10 +1,8 @@
-# ir-black-theme.el for Emacs 24's `deftheme`
+# emacs-like-on-macos-theme.el for Emacs 24's
 
-A light-on-dark color theme adapted from Todd Werth's [original Textmate theme](http://toddwerth.com/2007/03/29/ir_black-the-last-textmate-theme-youll-ever-need/).
+A light-on-dark color theme adapted from adapted from jmeldin's [ir-black-theme.el](https://github.com/jmdeldin/ir-black-theme.el), who in turn adapated Todd Werth's [original Textmate theme](http://toddwerth.com/2007/03/29/ir_black-the-last-textmate-theme-youll-ever-need/). The theme was adapted by ideas from [this Stack Exchange question](https://superuser.com/questions/542858/how-to-get-emacs-terminal-theme-for-emacs-app) by nico_c.
 
-## Screenshot
-
-![Screenshot](https://github.com/jmdeldin/ir-black-theme.el/raw/master/screenshot.png)
+The desire is to have an emacs theme that matches what is shown on in emacs on MacOs. In MacOs, emacs colors are funky, but once you're used to it it's hard to change.
 
 ## Installation
 
@@ -16,15 +14,6 @@ The easiest way is to install it through [MELPA](http://melpa.milkbox.net/) with
 
 After installing it:
 
-1. `M-x load-theme RET ir-black`
-2. Don't like it? Type `M-x disable-theme RET ir-black` to restore your
+1. `M-x load-theme RET emacs-like-on-macos`
+2. Don't like it? Type `M-x disable-theme RET emacs-like-on-macos` to restore your
    previous theme.
-
-## Contributing
-
-Please feel free to file an issue for more face definitions -- I'd like this
-theme to be usable for the entire Emacs experience.
-
-## If you enjoyed this theme...
-
-You might also like my [underwater-theme](https://github.com/jmdeldin/underwater-theme.el).
